@@ -1,1 +1,1 @@
-0x19. C - Stacks, Queues - LIFO, FIFO
+Monty Project - 0x19. C Programming Stacks, Queues - LIFO, FIFO
