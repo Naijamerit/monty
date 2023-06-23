@@ -1,2 +1,7 @@
-Monty Project - 0x19. C Programming Stacks, Queues - LIFO, FIFO
-Project Team: Victor Ejiogu, silas ogot 
+t do LIFO and FIFO mean
+What is a stack, and when to use it
+What is a queue, and when to use it
+What are the common implementations of stacks and queues
+What are the most common use cases of stacks and queues
+What is the proper way to use global variable
+Project done by: bigtammy and Eghele
