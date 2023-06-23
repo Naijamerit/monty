@@ -46,7 +46,7 @@ void pstr_o(stack_t **stack, unsigned int line_number)
   * @stack: head of stack
   * @line_number: current line number in file
   */
-void rot1_o(stack_t **stack, unsigned int line_number)
+void rotl_o(stack_t **stack, unsigned int line_number)
 {
 	int first;
 	stack_t *tmp;

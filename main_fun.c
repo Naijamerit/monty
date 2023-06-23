@@ -24,7 +24,7 @@ int main(int ac, char **av)
 		{"mul", mul_o},
 		{"mod", mod_o},
 		{"pstr", pstr_o},
-		{"rotl", rotr_o},
+		{"rotl", rotl_o},
 		{"pchar", pchar_o},
 		{"rotr", rotr_o},
 		{"stack", stack_o},
