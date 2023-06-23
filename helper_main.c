@@ -8,18 +8,19 @@
 void main_loop(instruction_t coms[])
 {
 	char *tok;
-	size_t buff_a = 0;
+	size_t buff_s = 0;
 	int line_n = 0;
 
-	while (getline(&main_s->buff), &buff_s, main_s->fp) != -1)
+	while (getline(&(main_s->buff), &buff_s, main_s->fp) != -1)
 	{
 		line_n++;
-
+		tok = strtok(main_s->buff, "\t\n");
+		/* check if line is empty, or a comment */
 		if (!tok)
 			continue;
 		if (tok[0] == '#')
 			continue;
-		if (strchar(tok, '\n'))
+		if (strchr(tok, '\n'))
 			tok = strtok(tok, "\n");
 		if (strcmp(tok, "push") == 0)
 		{
@@ -69,7 +70,7 @@ int execute_command(char *tok, int l, instruction_t t[])
 void free_stuff(void)
 {
 	fclose(main_s->fp);
-	free(main-s->buff);
+	free(main_s->buff);
 	free_dlistint(main_s->stack_s);
 	free(main_s);
 }

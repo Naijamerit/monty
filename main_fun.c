@@ -24,9 +24,9 @@ int main(int ac, char **av)
 		{"mul", mul_o},
 		{"mod", mod_o},
 		{"pstr", pstr_o},
-		{"rot1", rotl_o},
+		{"rotl", rotr_o},
 		{"pchar", pchar_o},
-		{"rotr" rotr_o},
+		{"rotr", rotr_o},
 		{"stack", stack_o},
 		{"queue", queue_o},
 		{NULL, NULL}
