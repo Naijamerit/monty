@@ -1,2 +1,2 @@
-LIFO and FIFO Project
-Project done by: Victor and Silasoti
+LIFO and FIFO Team Work
+Project done by: Victor and Silasotis
